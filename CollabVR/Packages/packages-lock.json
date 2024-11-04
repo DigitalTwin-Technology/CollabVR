@@ -10,6 +10,19 @@
       },
       "url": "https://packages.unity.com"
     },
+    "com.unity.cloud.gltfast": {
+      "version": "6.8.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.burst": "1.8.4",
+        "com.unity.collections": "1.5.1",
+        "com.unity.mathematics": "1.3.1",
+        "com.unity.modules.jsonserialize": "1.0.0",
+        "com.unity.modules.unitywebrequest": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.unity.collab-proxy": {
       "version": "2.5.2",
       "depth": 0,
@@ -218,29 +231,29 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.services.qos": {
-      "version": "1.2.1",
+      "version": "1.3.2",
       "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.collections": "1.2.4",
-        "com.unity.services.core": "1.4.0",
+        "com.unity.services.core": "1.12.5",
         "com.unity.nuget.newtonsoft-json": "3.0.2",
         "com.unity.modules.unitywebrequest": "1.0.0",
-        "com.unity.services.authentication": "2.0.0"
+        "com.unity.services.authentication": "2.7.4"
       },
       "url": "https://packages.unity.com"
     },
     "com.unity.services.relay": {
-      "version": "1.0.5",
+      "version": "1.1.1",
       "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.transport": "1.3.0",
-        "com.unity.services.qos": "1.1.0",
-        "com.unity.services.core": "1.4.0",
+        "com.unity.services.qos": "1.3.2",
+        "com.unity.services.core": "1.12.5",
         "com.unity.nuget.newtonsoft-json": "3.0.2",
         "com.unity.modules.unitywebrequest": "1.0.0",
-        "com.unity.services.authentication": "2.0.0",
+        "com.unity.services.authentication": "2.7.4",
         "com.unity.modules.unitywebrequestwww": "1.0.0",
         "com.unity.modules.unitywebrequestaudio": "1.0.0",
         "com.unity.modules.unitywebrequesttexture": "1.0.0",
@@ -249,7 +262,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.services.vivox": {
-      "version": "16.4.0",
+      "version": "16.5.3",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -346,6 +359,16 @@
         "com.unity.modules.ui": "1.0.0",
         "com.unity.modules.imgui": "1.0.0"
       }
+    },
+    "com.unity.visualscripting": {
+      "version": "1.9.5",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
     },
     "com.unity.xr.core-utils": {
       "version": "2.2.3",

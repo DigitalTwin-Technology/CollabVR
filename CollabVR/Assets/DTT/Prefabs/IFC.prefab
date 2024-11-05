@@ -126,7 +126,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _ifcLoaderTest: {fileID: 2668889920816190559}
-  _networkIfcModelStacker: {fileID: 0}
+  _ifcModelStacker: {fileID: 0}
   _ifcModelInteractor: {fileID: 2383918396338813430}
 --- !u!1 &3085246035575067698
 GameObject:
@@ -463,7 +463,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 125f1873f56a41b4ba5f9babc51cc37a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  highlightShader: {fileID: -6465566751694194690, guid: 5be8e95f55eb6df4892a1c6fa52082c6, type: 3}
+  highlightShader: {fileID: -6465566751694194690, guid: 5be8e95f55eb6df4892a1c6fa52082c6,
+    type: 3}
 --- !u!1 &7661255817049770413
 GameObject:
   m_ObjectHideFlags: 0
@@ -510,10 +511,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _modelTransform: {fileID: 0}
   _modelRotation: {x: 0, y: 0, z: 0}
-  _modelScale: 1
-  _tagIFC: 
-  _modelBoundsController: {fileID: 0}
-  _xrGrabableObject: {fileID: 0}
+  _modelScale: 0.07
+  _tagIFC: IFC
+  _modelBoundsController: {fileID: 3140604844668086771}
+  _xrGrabableObject: {fileID: 8182841187465880970}
 --- !u!1 &7801575902325440738
 GameObject:
   m_ObjectHideFlags: 0
@@ -654,7 +655,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   _inputText: {fileID: 0}
-  _keyboardManager: {fileID: 0}
 --- !u!1 &8853515728374663378
 GameObject:
   m_ObjectHideFlags: 0

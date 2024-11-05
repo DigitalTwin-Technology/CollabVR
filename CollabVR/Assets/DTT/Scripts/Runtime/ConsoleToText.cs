@@ -1,4 +1,3 @@
-using System;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -8,11 +7,6 @@ public class ConsoleToText : MonoBehaviour
     public TextMeshProUGUI debugText;
     string output = "";
     string stack = "";
-
-    public GameObject VivoxPlugin;
-    // public LobbyScreenUI test3;
-    // public RosterManager test4;
-
 
     private void OnEnable()
     {
@@ -29,7 +23,7 @@ public class ConsoleToText : MonoBehaviour
     void HandleLog(string logString, string stackTrace, LogType type)
     {
 
-        output = type +": " + logString + /*" -Stack: " +  stackTrace + "-" +*/ "\n" + "\n" + output;
+        output = type +": " + logString + "\n" + stackTrace + "\n" + "\n" + output;
         stack = stackTrace;
     }
 

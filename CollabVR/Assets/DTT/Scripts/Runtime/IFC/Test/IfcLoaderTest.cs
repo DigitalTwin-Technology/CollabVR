@@ -1,5 +1,4 @@
 ﻿using System;
-using Unity.Netcode;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Events;
@@ -27,15 +26,6 @@ namespace IFC.Test
 
         public void LoadDemo6()
         {
-            if( !_modelLoaded )
-                //LoadDemo6ServerRcp();
-                _ifcLoader.LoadIfc(AssetIdDemo6, FileIdDemo6, OnIfcLoaded);
-        }
-
-        [ServerRpc(RequireOwnership = false)]
-        public void LoadDemo6ServerRcp()
-        {
-            Debug.Log( "Trying to Load Demo 6" );
             if (!_modelLoaded)
                 _ifcLoader.LoadIfc(AssetIdDemo6, FileIdDemo6, OnIfcLoaded);
         }

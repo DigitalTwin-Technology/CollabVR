@@ -17,6 +17,7 @@ public class IfcLoader : MonoBehaviour
 
     private IEnumerator LoadIfc(string endpoint, Action<GameObject> onIfcLoaded)
     {
+
         using UnityWebRequest request = UnityWebRequest.Get(endpoint);
         
         yield return request.SendWebRequest();
@@ -27,6 +28,7 @@ public class IfcLoader : MonoBehaviour
             onIfcLoaded?.Invoke(null);
             yield break;
         }
+        Debug.Log( "LoadIfc Correct" );
 
         _glbLoader.Load(request.downloadHandler.data, onIfcLoaded);
     }

@@ -10,7 +10,7 @@ using UnityEngine;
 public class IFCModelStacker : MonoBehaviour
 {
     [SerializeField]
-    protected Transform _modelTransform;
+    private Transform _modelTransform;
 
     [SerializeField]
     private Vector3 _modelRotation;
@@ -26,15 +26,15 @@ public class IFCModelStacker : MonoBehaviour
     private ModelBoundsController _modelBoundsController;
 
     [SerializeField]
-    protected GameObject _xrGrabableObject;
+    private GameObject _xrGrabableObject;
     
-    protected GameObject _xrGrabableObjectInstance;
+    private GameObject _xrGrabableObjectInstance;
     public GameObject XRGrabbableObjectInstance
     {
         get => _xrGrabableObjectInstance;
     }
 
-    protected GameObject _ifcRoot;
+    private GameObject _ifcRoot;
     public GameObject IFCRoot
     {
         get => _ifcRoot;
@@ -57,7 +57,7 @@ public class IFCModelStacker : MonoBehaviour
             //Debug.Log( " ---- UPDATE ---- XR Parent: " + _xrGrabableObjectInstance.transform.parent.name );
     }
 
-    protected void AddInteractableComponentsToModel( )
+    private void AddInteractableComponentsToModel( )
     {
         GameObject sceneObj = _xrGrabableObjectInstance.transform.GetChild( 0 ).gameObject;
         Vector3 boundSize = _modelBoundsController.GetGlobalBoundSize(sceneObj);
@@ -70,7 +70,7 @@ public class IFCModelStacker : MonoBehaviour
 
     }
 
-    protected void AddInteractableComponentsToChilds( )
+    private void AddInteractableComponentsToChilds( )
     {
 
         GameObject sceneObj = _xrGrabableObjectInstance.transform.GetChild( 0 ).GetChild( 0 ).gameObject;

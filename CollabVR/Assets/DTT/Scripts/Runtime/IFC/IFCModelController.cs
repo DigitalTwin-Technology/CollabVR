@@ -14,32 +14,33 @@ public class IFCModelController : MonoBehaviour
     private IfcLoaderTest _ifcLoaderTest;
     
     [SerializeField]
-    private NetworkIFCModelStacker _networkIfcModelStacker;
+    private IFCModelStacker _ifcModelStacker;
 
-    public IFCModelStacker IfcModelStacker => _networkIfcModelStacker;
+    public IFCModelStacker IfcModelStacker => _ifcModelStacker;
     
     [SerializeField]
     private IFCModelInteractor _ifcModelInteractor;
 
     private void Awake()
     {
-        //_ifcLoaderTest.OnLoadModel += _networkIfcModelStacker.SpawnNetworkObjectServerRpc;
+        _ifcLoaderTest.OnLoadModel += _ifcModelStacker.InitializeIFCModel;
     }
 
     
     
     public void ResetInstanceTransformFromScene()
     {
-        _networkIfcModelStacker.ResetInstanceTransform( );
+        _ifcModelStacker.ResetInstanceTransform( );
         _ifcModelInteractor.SetMode( IFCModelInteractor.IFCMode.INTERACTABLE );
         
     }
     
     public void SetActiveInstance( bool value )
     {
-        if( _networkIfcModelStacker.XRGrabbableObjectInstance != null)
+        if( _ifcModelStacker.XRGrabbableObjectInstance != null)
         {
-            _networkIfcModelStacker.XRGrabbableObjectInstance.SetActive( value );
+            _ifcModelStacker.XRGrabbableObjectInstance.SetActive( value );
+            Debug.Log( "SetActiveInstance Correct" );
             //StartCoroutine( _ifcModelStacker.SetParentIFC(_ifcModelStacker.XRGrabbableObjectInstance) );
         }
     }
@@ -49,7 +50,7 @@ public class IFCModelController : MonoBehaviour
     
     private void OnDestroy()
     {
-        _ifcLoaderTest.OnLoadModel -=  _networkIfcModelStacker.InitializeIFCModel;
+        _ifcLoaderTest.OnLoadModel -=  _ifcModelStacker.InitializeIFCModel;
     }
 
     

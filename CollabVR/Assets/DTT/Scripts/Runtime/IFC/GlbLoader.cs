@@ -18,6 +18,8 @@ namespace IFC
 
             var root = new GameObject("IfcModel");
             if (await glb.InstantiateMainSceneAsync(root.transform)) onLoadGlb?.Invoke(root);
+            Debug.Log( "Load Correct" );
+
         }
     }
 }

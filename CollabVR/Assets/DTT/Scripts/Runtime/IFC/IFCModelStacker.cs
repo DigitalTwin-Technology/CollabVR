@@ -112,7 +112,10 @@ public class IFCModelStacker : MonoBehaviour
 
     IEnumerator RegisterXRGrabInteractableCoroutine(BoxCollider boxCollider)
     {
+        Debug.Log( "TEST1: " + _xrGrabableObjectInstance );
+
         UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable xrGrabInteractable = _xrGrabableObjectInstance.GetComponent < UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable >();
+        Debug.Log( "TEST2: " + xrGrabInteractable );
         xrGrabInteractable.colliders.Add( boxCollider );
         xrGrabInteractable.interactionManager.UnregisterInteractable( xrGrabInteractable.GetComponent<UnityEngine.XR.Interaction.Toolkit.Interactables.IXRInteractable>() );
         xrGrabInteractable.interactionManager.RegisterInteractable( xrGrabInteractable.GetComponent<UnityEngine.XR.Interaction.Toolkit.Interactables.IXRInteractable>() );

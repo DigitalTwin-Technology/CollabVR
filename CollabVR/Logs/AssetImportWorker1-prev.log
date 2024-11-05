@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.3.14f1\Editor\Unity.exe
 -name
 AssetImportWorker1
 -projectPath
-C:/DATA/CollabVR
+C:/DATA/02_WORK/01_DTT/09_ColabVR/Github/CollabVR/CollabVR
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-55979
-Successfully changed project path to: C:/DATA/CollabVR
-C:/DATA/CollabVR
+59927
+Successfully changed project path to: C:/DATA/02_WORK/01_DTT/09_ColabVR/Github/CollabVR/CollabVR
+C:/DATA/02_WORK/01_DTT/09_ColabVR/Github/CollabVR/CollabVR
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,16 +49,16 @@ C:/DATA/CollabVR
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [38824] Host "[IP] 192.168.1.39 [Port] 0 [Flags] 2 [Guid] 3520495758 [EditorId] 3520495758 [Version] 1048832 [Id] WindowsEditor(7,MARC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [63708] Host "[IP] 192.168.1.39 [Port] 0 [Flags] 2 [Guid] 4273588751 [EditorId] 4273588751 [Version] 1048832 [Id] WindowsEditor(7,MARC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [38824] Host "[IP] 192.168.1.39 [Port] 0 [Flags] 2 [Guid] 3520495758 [EditorId] 3520495758 [Version] 1048832 [Id] WindowsEditor(7,MARC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [63708] Host "[IP] 192.168.1.39 [Port] 0 [Flags] 2 [Guid] 4273588751 [EditorId] 4273588751 [Version] 1048832 [Id] WindowsEditor(7,MARC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 23 workers.
-Refreshing native plugins compatible for Editor in 1769.07 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 2.10 ms.
+Refreshing native plugins compatible for Editor in 21.63 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 1.36 ms.
 Initialize engine version: 2022.3.14f1 (eff2de9070d8)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/DATA/CollabVR/Assets
+[Subsystems] Discovering subsystems at path C:/DATA/02_WORK/01_DTT/09_ColabVR/Github/CollabVR/CollabVR/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -70,49 +70,49 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56964
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56036
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007570 seconds.
-- Loaded All Assemblies, in  0.445 seconds
+Registered in 0.003816 seconds.
+- Loaded All Assemblies, in  0.210 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 530 ms
+Android Extension - Scanning For ADB Devices 292 ms
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.885 seconds
-Domain Reload Profiling: 1329ms
-	BeginReloadAssembly (161ms)
+- Finished resetting the current domain, in  0.572 seconds
+Domain Reload Profiling: 782ms
+	BeginReloadAssembly (64ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (63ms)
-	LoadAllAssembliesAndSetupDomain (173ms)
-		LoadAssemblies (160ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (89ms)
+		LoadAssemblies (63ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (169ms)
-			TypeCache.Refresh (167ms)
-				TypeCache.ScanAssembly (148ms)
+		AnalyzeDomain (87ms)
+			TypeCache.Refresh (86ms)
+				TypeCache.ScanAssembly (78ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (886ms)
+	FinalizeReload (572ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (818ms)
+		SetupLoadedEditorAssemblies (533ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (656ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (428ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (105ms)
-			ProcessInitializeOnLoadMethodAttributes (50ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (71ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -121,8 +121,8 @@ Domain Reload Profiling: 1329ms
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in 73.438 seconds
-Refreshing native plugins compatible for Editor in 733.08 ms, found 11 plugins.
+- Loaded All Assemblies, in  0.580 seconds
+Refreshing native plugins compatible for Editor in 13.75 ms, found 11 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
@@ -140,52 +140,52 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.637 seconds
-Domain Reload Profiling: 75090ms
-	BeginReloadAssembly (128ms)
+- Finished resetting the current domain, in  0.716 seconds
+Domain Reload Profiling: 1294ms
+	BeginReloadAssembly (98ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (25ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (54ms)
-	LoadAllAssembliesAndSetupDomain (73230ms)
-		LoadAssemblies (51169ms)
+		CreateAndSetChildDomain (16ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (412ms)
+		LoadAssemblies (285ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (22118ms)
-			TypeCache.Refresh (21906ms)
-				TypeCache.ScanAssembly (17085ms)
-			ScanForSourceGeneratedMonoScriptInfo (136ms)
-			ResolveRequiredComponents (70ms)
-	FinalizeReload (1638ms)
+		AnalyzeDomain (182ms)
+			TypeCache.Refresh (150ms)
+				TypeCache.ScanAssembly (133ms)
+			ScanForSourceGeneratedMonoScriptInfo (24ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (717ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1214ms)
+		SetupLoadedEditorAssemblies (582ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (33ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (169ms)
-			ProcessInitializeOnLoadAttributes (687ms)
-			ProcessInitializeOnLoadMethodAttributes (311ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (1ms)
+			BeforeProcessingInitializeOnLoad (105ms)
+			ProcessInitializeOnLoadAttributes (360ms)
+			ProcessInitializeOnLoadMethodAttributes (95ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (21ms)
-Switching build target platform(13) subTarget(0) extendedPlatform(0) -> platform(19) subTarget(0) extendedPlatform(0)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 28.65 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.22 ms.
-Unloading 7025 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 190 unused Assets / (2.0 MB). Loaded Objects now: 7421.
-Memory consumption went from 284.6 MB to 282.6 MB.
-Total: 11.943300 ms (FindLiveObjects: 0.537300 ms CreateObjectMapping: 0.164800 ms MarkObjects: 8.811700 ms  DeleteObjects: 2.426900 ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 8.89 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Unloading 7023 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 190 unused Assets / (2.0 MB). Loaded Objects now: 7419.
+Memory consumption went from 271.1 MB to 269.2 MB.
+Total: 3.390100 ms (FindLiveObjects: 0.288100 ms CreateObjectMapping: 0.116500 ms MarkObjects: 2.338600 ms  DeleteObjects: 0.646200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Readme.cs: b963995d2d26388764121aed720197ab -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
@@ -196,10 +196,1028 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ReadmeEditor.cs: ff7ced1e41c1b99ddf5dfefc88f6bd50 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+========================================================================
+Received Import Request.
+  Time since last request: 188322.150598 seconds.
+  path: Assets/VRMPAssets/Textures/UI/Unity Logo.png
+  artifactKey: Guid(726899522e5ee9441845c1ee87577163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRMPAssets/Textures/UI/Unity Logo.png using Guid(726899522e5ee9441845c1ee87577163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18f270e9c36229c0dd14501cb938c20f') in 0.053897 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  2.648 seconds
+Refreshing native plugins compatible for Editor in 13.50 ms, found 11 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.RenderPipelineValidation..cctor () [0x00010] in C:\DATA\CollabVR\Assets\Samples\XR Interaction Toolkit\3.0.5\Starter Assets\Scripts\MaterialPipelineHandler.cs:16 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in 16.567 seconds
+Domain Reload Profiling: 19213ms
+	BeginReloadAssembly (125ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (113ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (2368ms)
+		LoadAssemblies (2393ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (26ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (16567ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1042ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (108ms)
+			ProcessInitializeOnLoadAttributes (657ms)
+			ProcessInitializeOnLoadMethodAttributes (253ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 10.59 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 6905 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 144 unused Assets / (1.9 MB). Loaded Objects now: 7431.
+Memory consumption went from 248.4 MB to 246.5 MB.
+Total: 4.000400 ms (FindLiveObjects: 0.379100 ms CreateObjectMapping: 0.114700 ms MarkObjects: 2.825900 ms  DeleteObjects: 0.679900 ms)
+
+Prepare: number of updated asset objects reloaded= 38
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Readme.cs: b963995d2d26388764121aed720197ab -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ReadmeEditor.cs: ff7ced1e41c1b99ddf5dfefc88f6bd50 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2091.354331 seconds.
+  path: Assets/VRMPAssets/Materials/AvatarMaterials/StandardMaterials/HMD_Chrome.mat
+  artifactKey: Guid(a0aedf40583136b4a85139a4dfbe6cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRMPAssets/Materials/AvatarMaterials/StandardMaterials/HMD_Chrome.mat using Guid(a0aedf40583136b4a85139a4dfbe6cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c144190139a6523f8577541cdf0de44') in 0.902329 seconds
+Number of updated asset objects reloaded before import = 38
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/VRMPAssets/Materials/AvatarMaterials/Unity_Avatar_Hand_Medium.mat
+  artifactKey: Guid(30fea3cc9632a974b8ba22c61694af35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRMPAssets/Materials/AvatarMaterials/Unity_Avatar_Hand_Medium.mat using Guid(30fea3cc9632a974b8ba22c61694af35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f16899a772944b5d78e504aa4dfb43a') in 0.206819 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Plugins/Sci-Fi Styled Modular Pack/Materials/hologram_particle.mat
+  artifactKey: Guid(d37e8378fe566f84a8b75b0083ec4838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Sci-Fi Styled Modular Pack/Materials/hologram_particle.mat using Guid(d37e8378fe566f84a8b75b0083ec4838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '762d8d14a85f4c15935859ab950268be') in 0.039104 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/VRMPAssets/Meshes/EnvironmentMeshes/MP_Level.fbx
+  artifactKey: Guid(94894901f5281a940b2cf24d46a3256f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRMPAssets/Meshes/EnvironmentMeshes/MP_Level.fbx using Guid(94894901f5281a940b2cf24d46a3256f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88436b511efc996c6bf7d0642b42868f') in 0.264267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 69
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/VRMPAssets/Materials/Machine_Grey.mat
+  artifactKey: Guid(a736c70acd93f0b419b8a24bb0b658e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRMPAssets/Materials/Machine_Grey.mat using Guid(a736c70acd93f0b419b8a24bb0b658e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcc318003c44a56f7ca3e1a748f372fe') in 0.036061 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/VRMPAssets/Shaders/SimpleLitDither.shadergraph
+  artifactKey: Guid(2490bf543e8961146a8dfabde490eadc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRMPAssets/Shaders/SimpleLitDither.shadergraph using Guid(2490bf543e8961146a8dfabde490eadc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98b3008cad3f5b28052ab29f1f415952') in 0.513847 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.5/Hands Interaction Demo/HandsDemoSceneAssets/Models/Frame.fbx
+  artifactKey: Guid(171affcd2d7ddf545ae966acd2de57c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.5/Hands Interaction Demo/HandsDemoSceneAssets/Models/Frame.fbx using Guid(171affcd2d7ddf545ae966acd2de57c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab93c29ce814aa549dfc1e0f27525966') in 0.055620 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/VRMPAssets/MiniGames/MiniGameMaterials/Rubber_Grey.mat
+  artifactKey: Guid(79fcff92f6227984fbecd8ee0a2ad6af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRMPAssets/MiniGames/MiniGameMaterials/Rubber_Grey.mat using Guid(79fcff92f6227984fbecd8ee0a2ad6af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1756a0d34e9b55a0f5b1fbc379713ead') in 0.019463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.5/Starter Assets/Shaders/Unlit_Fresnel.shadergraph
+  artifactKey: Guid(e19b5bb6cb8e91e43b1b5d81a069296f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.5/Starter Assets/Shaders/Unlit_Fresnel.shadergraph using Guid(e19b5bb6cb8e91e43b1b5d81a069296f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca6e393cabb22beb2a1fc81d50dd067d') in 0.116923 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/VRMPAssets/Materials/TransparentCylinder.mat
+  artifactKey: Guid(13ed2ba253863d543813c8a339a255a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRMPAssets/Materials/TransparentCylinder.mat using Guid(13ed2ba253863d543813c8a339a255a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c24cf6d0f9f2e9815233f7ceb729ee76') in 0.157203 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/VRMPAssets/Tutorial/TutorialMaterials/Video_Material_Unlit.mat
+  artifactKey: Guid(e041278372347f446a19c64f6ffc27e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRMPAssets/Tutorial/TutorialMaterials/Video_Material_Unlit.mat using Guid(e041278372347f446a19c64f6ffc27e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afb8ea3aea2709c3e4ff74058c18440f') in 0.077746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ede97752f12e9110bb3f7c8fac6a39f2') in 0.033656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.5/Starter Assets/Materials/FresnelHighlight.mat
+  artifactKey: Guid(f5ccd52dc494e054fbe7d7161dcabe25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.5/Starter Assets/Materials/FresnelHighlight.mat using Guid(f5ccd52dc494e054fbe7d7161dcabe25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08bbf5f14aa6b4691db94e9932f647e0') in 0.073053 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.5/Spatial Keyboard/Models/Spatial Panel Manipulator Model.fbx
+  artifactKey: Guid(c6984c48aed9a154294088f4265d8478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.5/Spatial Keyboard/Models/Spatial Panel Manipulator Model.fbx using Guid(c6984c48aed9a154294088f4265d8478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11abd6f7f4565e8e6923c0669e331d5a') in 0.021724 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.5/Starter Assets/Materials/Controller_White.mat
+  artifactKey: Guid(9f12d299d16099343a3c5c0d7285822a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.5/Starter Assets/Materials/Controller_White.mat using Guid(9f12d299d16099343a3c5c0d7285822a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31b9c147be2f0f3132143ae809dc3c0a') in 0.213622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.5/Starter Assets/Materials/Controller_Grey.mat
+  artifactKey: Guid(99685157b02e4d446bbecb015645e5e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.5/Starter Assets/Materials/Controller_Grey.mat using Guid(99685157b02e4d446bbecb015645e5e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40f7e202233c83fab3d05c733d017de0') in 0.038065 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/VRMPAssets/Materials/AvatarMaterials/DitherMaterials/Eyes_Dither.mat
+  artifactKey: Guid(9415889c1c4b44c4280017fa52792b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRMPAssets/Materials/AvatarMaterials/DitherMaterials/Eyes_Dither.mat using Guid(9415889c1c4b44c4280017fa52792b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2236631e3b536fc66ad4897c221f0e20') in 0.014817 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/VRMPAssets/Materials/Fresnel Pointer.mat
+  artifactKey: Guid(d6c13524626562541adc98ba82be74be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRMPAssets/Materials/Fresnel Pointer.mat using Guid(d6c13524626562541adc98ba82be74be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3c3b0e90af44a4325cf87bdcea04df1') in 0.129279 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/VRMPAssets/Materials/AnchorMaterials/Anchor Blue Glow.mat
+  artifactKey: Guid(7a723ecfb519e7945a7fa67bed0a57f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRMPAssets/Materials/AnchorMaterials/Anchor Blue Glow.mat using Guid(7a723ecfb519e7945a7fa67bed0a57f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b2fc0984490afcb36e870b43e4095e3') in 0.092116 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/VRMPAssets/Meshes/EnvironmentMeshes/Table.fbx
+  artifactKey: Guid(f0ca3d5be1ce942c3a26380bb57b8fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRMPAssets/Meshes/EnvironmentMeshes/Table.fbx using Guid(f0ca3d5be1ce942c3a26380bb57b8fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3285eb940ce12901a862352600a382c0') in 0.106316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/VRMPAssets/Fonts/Inter-Regular SDF Overlay Outline Thick Material.mat
+  artifactKey: Guid(c44e025c6bec3624a9f624e28b7d925b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRMPAssets/Fonts/Inter-Regular SDF Overlay Outline Thick Material.mat using Guid(c44e025c6bec3624a9f624e28b7d925b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4121221f669d0bb4872d8719029e98d4') in 0.020250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002648 seconds.
+  path: Assets/VRMPAssets/MiniGames/MiniGameMaterials/Red_Lit.mat
+  artifactKey: Guid(874159d7386d23841940136b24b48a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRMPAssets/MiniGames/MiniGameMaterials/Red_Lit.mat using Guid(874159d7386d23841940136b24b48a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e14624d1f1a6fc8a0212a49f76633244') in 0.013952 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.5/Starter Assets/Materials/Telport Area.mat
+  artifactKey: Guid(be1e10ce8a6f8cc4fb08d11c7f722469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.5/Starter Assets/Materials/Telport Area.mat using Guid(be1e10ce8a6f8cc4fb08d11c7f722469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0f63c528ca5a89d5e45078c87fba4c4') in 0.266482 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.5/Starter Assets/DemoSceneAssets/Materials/Concrete Grey.mat
+  artifactKey: Guid(842f1b88643f1bb458ba6243088e344e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.5/Starter Assets/DemoSceneAssets/Materials/Concrete Grey.mat using Guid(842f1b88643f1bb458ba6243088e344e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f09f3e500694770c4b8db61232873b20') in 0.274701 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/VRMPAssets/MiniGames/MiniGameMeshes/WhackTable.fbx
+  artifactKey: Guid(4b18a6c2bfe124923ba38799576ad597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRMPAssets/MiniGames/MiniGameMeshes/WhackTable.fbx using Guid(4b18a6c2bfe124923ba38799576ad597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45268be19d17982dc351b204dba30f62') in 0.027164 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/VRMPAssets/Materials/InteractableMaterials/Interactable.mat
+  artifactKey: Guid(68347cd073dbd4fe9a88841f671b2d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRMPAssets/Materials/InteractableMaterials/Interactable.mat using Guid(68347cd073dbd4fe9a88841f671b2d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7029d32b9dd46802eb953a14b6e306a') in 0.273874 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.5/Hands Interaction Demo/Materials/Unity_Hand_Medium.mat
+  artifactKey: Guid(61d033f3a51f40647a5458ea14f3b4af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.5/Hands Interaction Demo/Materials/Unity_Hand_Medium.mat using Guid(61d033f3a51f40647a5458ea14f3b4af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eef29d20e2d79f77e838391abf44224') in 0.014923 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/VRMPAssets/Materials/AvatarMaterials/StandardMaterials/Skin.mat
+  artifactKey: Guid(042d6e2f6bdad7c41852455197c567f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRMPAssets/Materials/AvatarMaterials/StandardMaterials/Skin.mat using Guid(042d6e2f6bdad7c41852455197c567f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c73f625b87827fa112ab0858cb197fa4') in 0.021123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/VRMPAssets/Materials/Locomotion/TeleportIndicatorOcclusionPass.mat
+  artifactKey: Guid(12bf4372e629f4777918e8716bc16c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRMPAssets/Materials/Locomotion/TeleportIndicatorOcclusionPass.mat using Guid(12bf4372e629f4777918e8716bc16c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb78ed91b1191f1d9b8ef6982d93944b') in 0.020832 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/VRMPAssets/Materials/AvatarMaterials/StandardMaterials/Crown.mat
+  artifactKey: Guid(fd8467e62fe6a284cacdad31209fb552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRMPAssets/Materials/AvatarMaterials/StandardMaterials/Crown.mat using Guid(fd8467e62fe6a284cacdad31209fb552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a238d1eaa51c075c0b296b89c1d5bdd4') in 0.019301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/VRMPAssets/Materials/EnvironmentMaterials/Grid Dark Tight.mat
+  artifactKey: Guid(43672be0899539340ba6ac5db322693c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRMPAssets/Materials/EnvironmentMaterials/Grid Dark Tight.mat using Guid(43672be0899539340ba6ac5db322693c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dba652b2773a1de5fd93a620004e341c') in 0.019330 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/VRMPAssets/MiniGames/MiniGameMaterials/Blue Standard.mat
+  artifactKey: Guid(7632678931fb0f34cb3d81b319e6fd15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRMPAssets/MiniGames/MiniGameMaterials/Blue Standard.mat using Guid(7632678931fb0f34cb3d81b319e6fd15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0dc7ca44c5159f36fd2cdda7aa8fe20') in 0.191564 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/VRMPAssets/MiniGames/MiniGameMaterials/Plastic_White.mat
+  artifactKey: Guid(51832ba027bb9bc409fdd189fe4792dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRMPAssets/MiniGames/MiniGameMaterials/Plastic_White.mat using Guid(51832ba027bb9bc409fdd189fe4792dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9442fc8f275c87c9246876fb4f73908') in 0.019432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/VRMPAssets/Materials/EnvironmentMaterials/Black_No_Shadows.mat
+  artifactKey: Guid(62c2ed2c34c7d8e45b41d699c03987b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRMPAssets/Materials/EnvironmentMaterials/Black_No_Shadows.mat using Guid(62c2ed2c34c7d8e45b41d699c03987b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2ea42718ed621970dfe9aebf9ab47ac') in 0.141137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/VRMPAssets/Meshes/PlayerMeshes/Host_Crown.fbx
+  artifactKey: Guid(4aab437627dae914baeec6c650e48332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRMPAssets/Meshes/PlayerMeshes/Host_Crown.fbx using Guid(4aab437627dae914baeec6c650e48332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f30c1b884ea9d13c4b04ac92e7d4d63') in 0.020487 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/VRMPAssets/Materials/Black.mat
+  artifactKey: Guid(6d20ed96c812cd143a26299230066563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRMPAssets/Materials/Black.mat using Guid(6d20ed96c812cd143a26299230066563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd146c19b4216beb8e6f208153593808c') in 0.011813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/VRMPAssets/Materials/TransparentCylinder_Dispenser.mat
+  artifactKey: Guid(98becb8ffa5ba11469a687a29e2f87fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRMPAssets/Materials/TransparentCylinder_Dispenser.mat using Guid(98becb8ffa5ba11469a687a29e2f87fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eee3108db1e3847b4f2f12b449c418b') in 0.021856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Plugins/Sci-Fi Styled Modular Pack/Materials/lattice.mat
+  artifactKey: Guid(0f4853191d321d748b1f95a97d7b37f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Sci-Fi Styled Modular Pack/Materials/lattice.mat using Guid(0f4853191d321d748b1f95a97d7b37f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeebcd3862e71099b7bf2372faca8251') in 0.070302 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/VRMPAssets/Materials/InteractableMaterials/Red_Interactable.mat
+  artifactKey: Guid(0732bad0db5abf945b466622a1a1c5cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRMPAssets/Materials/InteractableMaterials/Red_Interactable.mat using Guid(0732bad0db5abf945b466622a1a1c5cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e0dc313a74a01541f12fdeb2636ecda') in 0.050951 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.5/Starter Assets/Tunneling Vignette/TunnelingVignetteSG.shadergraph
+  artifactKey: Guid(c109fab5d2bf5f64598ed69d2c16ceb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.5/Starter Assets/Tunneling Vignette/TunnelingVignetteSG.shadergraph using Guid(c109fab5d2bf5f64598ed69d2c16ceb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30a6a716a84b862c1b73dc67c3ce5133') in 0.224968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/VRMPAssets/Materials/AvatarMaterials/DitherMaterials/HMD_Chrome_Dither.mat
+  artifactKey: Guid(46f10b6b79000b24c8eb08930a082a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRMPAssets/Materials/AvatarMaterials/DitherMaterials/HMD_Chrome_Dither.mat using Guid(46f10b6b79000b24c8eb08930a082a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77e79f40e43688958d36ecd45e7d2880') in 0.016386 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/VRMPAssets/Fonts/Inter-Regular SDF NoBackfaceCulling.asset
+  artifactKey: Guid(fbb7c6a04be6d8341934b839f24b42e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRMPAssets/Fonts/Inter-Regular SDF NoBackfaceCulling.asset using Guid(fbb7c6a04be6d8341934b839f24b42e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62024ca96b2d2622887d0ea14d632587') in 0.096292 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/VRMPAssets/Materials/Power_Off_Material.mat
+  artifactKey: Guid(34a4409020974be4198b885b9e34cc48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRMPAssets/Materials/Power_Off_Material.mat using Guid(34a4409020974be4198b885b9e34cc48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fa71ac9f5f3ea7168ba41cca8783630') in 0.173998 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.023943 seconds.
+  path: Assets/Plugins/Sci-Fi Styled Modular Pack/Materials/nature_root.mat
+  artifactKey: Guid(00fc27719fc29924b9a34aab914dc83a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Sci-Fi Styled Modular Pack/Materials/nature_root.mat using Guid(00fc27719fc29924b9a34aab914dc83a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8527e4c74453aa2c540a22e1335480de') in 0.021917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/VRMPAssets/Meshes/EnvironmentMeshes/Locomotion/TeleportIndicatorVisual.fbx
+  artifactKey: Guid(3456029f09fd04b3f938f19c543b7ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRMPAssets/Meshes/EnvironmentMeshes/Locomotion/TeleportIndicatorVisual.fbx using Guid(3456029f09fd04b3f938f19c543b7ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa97bc92e5508b862d01641aa7b2f6de') in 0.019986 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/VRMPAssets/Fonts/Inter-Regular SDF Material XRay Blue.mat
+  artifactKey: Guid(af07a37023b9de24a8da02768ceff3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRMPAssets/Fonts/Inter-Regular SDF Material XRay Blue.mat using Guid(af07a37023b9de24a8da02768ceff3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8359dda6c92ddc9da244d18c6c97a032') in 0.102915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.5/Hands Interaction Demo/Materials/Unity_Hand_Light.mat
+  artifactKey: Guid(1e4454c94a0cbda42814c4fb8df151d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.5/Hands Interaction Demo/Materials/Unity_Hand_Light.mat using Guid(1e4454c94a0cbda42814c4fb8df151d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ec326efd27a720934e704aa8f02be46') in 0.020974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Plugins/Sci-Fi Styled Modular Pack/Materials/glass.mat
+  artifactKey: Guid(2ce01831e9f3ae441bb48623e5fbe0c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Sci-Fi Styled Modular Pack/Materials/glass.mat using Guid(2ce01831e9f3ae441bb48623e5fbe0c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a665e336f74d9602b5f95862918ba29a') in 0.177166 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/VRMPAssets/Materials/EnvironmentMaterials/Grid Dark Large.mat
+  artifactKey: Guid(6bfc5a5cb9cb745e5baa7de1771ef20e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRMPAssets/Materials/EnvironmentMaterials/Grid Dark Large.mat using Guid(6bfc5a5cb9cb745e5baa7de1771ef20e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7959c2c84c626e28904cd6e1570c3d9d') in 0.015805 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP UNLIT.shadergraph
+  artifactKey: Guid(f63d574838ccfb44f84acc05fed0af48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP UNLIT.shadergraph using Guid(f63d574838ccfb44f84acc05fed0af48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80bd69cfd2fce8659b83f4a7a1909d61') in 0.025535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/VRMPAssets/Materials/EnvironmentMaterials/Dark_Blue.mat
+  artifactKey: Guid(7da239241d84f4345941917367cec350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRMPAssets/Materials/EnvironmentMaterials/Dark_Blue.mat using Guid(7da239241d84f4345941917367cec350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b560bae682b1200deece753f518089d6') in 0.016881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.5/Starter Assets/Shaders/Interactable.shadergraph
+  artifactKey: Guid(0927d29e476ce5843b1f7d2a96943c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.5/Starter Assets/Shaders/Interactable.shadergraph using Guid(0927d29e476ce5843b1f7d2a96943c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '074798c23b7e7c9ea5f2c506eaff1b41') in 0.146206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph
+  artifactKey: Guid(ca2ed216f98028c4dae6c5224a952b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph using Guid(ca2ed216f98028c4dae6c5224a952b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '651f4e03e8a3937d59af59be81b95bbc') in 0.045671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ce04852cdfc1451f56a39214757b09b') in 0.070106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Plugins/Sci-Fi Styled Modular Pack/Materials/nature_leaves.mat
+  artifactKey: Guid(5d84bcb5cc458944085f3169d277536d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Sci-Fi Styled Modular Pack/Materials/nature_leaves.mat using Guid(5d84bcb5cc458944085f3169d277536d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a85334ea47b9e836166d275fd0ed745e') in 0.140816 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Plugins/Sci-Fi Styled Modular Pack/Materials/nature_ground.mat
+  artifactKey: Guid(71c78677fdc08394da7fd716fb41a991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Sci-Fi Styled Modular Pack/Materials/nature_ground.mat using Guid(71c78677fdc08394da7fd716fb41a991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe741c0325efccd45168110756e38ab1') in 0.011043 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.5/Hands Interaction Demo/HandsDemoSceneAssets/Materials/AccentButton.mat
+  artifactKey: Guid(53c16fb5d5c516b40a1f6a8fc34132f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.5/Hands Interaction Demo/HandsDemoSceneAssets/Materials/AccentButton.mat using Guid(53c16fb5d5c516b40a1f6a8fc34132f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29f666878463a19d0348c19b1604a961') in 0.012475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/VRMPAssets/Materials/AvatarMaterials/StandardMaterials/Teeth.mat
+  artifactKey: Guid(5b17520229bcebb4e847c5e0dac349ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRMPAssets/Materials/AvatarMaterials/StandardMaterials/Teeth.mat using Guid(5b17520229bcebb4e847c5e0dac349ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86baa6c8d8492aa9c3c51faaba1e87a6') in 0.020205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/VRMPAssets/Materials/TrailMaterial.mat
+  artifactKey: Guid(b67500844758fdc4793f13794c8d773e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRMPAssets/Materials/TrailMaterial.mat using Guid(b67500844758fdc4793f13794c8d773e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dff455c398eae2909a2b0b7833d6827') in 0.018808 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Plugins/Sci-Fi Styled Modular Pack/Materials/Palletes/base color.mat
+  artifactKey: Guid(10de6384af0c3b54e8166f9c3f936e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Sci-Fi Styled Modular Pack/Materials/Palletes/base color.mat using Guid(10de6384af0c3b54e8166f9c3f936e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa914aae849f3ba0e23a6c1ad90a22a8') in 0.201208 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/VRMPAssets/Materials/UI/RenderOnTopUI.mat
+  artifactKey: Guid(1c66ae816153ccf48b699d83a0edc9a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRMPAssets/Materials/UI/RenderOnTopUI.mat using Guid(1c66ae816153ccf48b699d83a0edc9a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d912587976e5bb5f02a0e6a1831d75d') in 0.011199 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Plugins/Sci-Fi Styled Modular Pack/Models/Materials/base color.mat
+  artifactKey: Guid(1cf3cfed14637cd42a0ad3f801ebdb71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Sci-Fi Styled Modular Pack/Models/Materials/base color.mat using Guid(1cf3cfed14637cd42a0ad3f801ebdb71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1986bb96deb003b54281a53919d5ab2c') in 0.010008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/VRMPAssets/Materials/AvatarMaterials/StandardMaterials/Tongue.mat
+  artifactKey: Guid(5b2d35c6c9b7dc542a0527697aa04274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRMPAssets/Materials/AvatarMaterials/StandardMaterials/Tongue.mat using Guid(5b2d35c6c9b7dc542a0527697aa04274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e43263f83fde59b9e766872c11015e0') in 0.017335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/VRMPAssets/Materials/TrailMaterial_Transparent.mat
+  artifactKey: Guid(c63022ce2494eda46bd87e4c3e52c1d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRMPAssets/Materials/TrailMaterial_Transparent.mat using Guid(c63022ce2494eda46bd87e4c3e52c1d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '712a3666133d987bc0af7da59777bac4') in 0.066953 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/VRMPAssets/MiniGames/MiniGameMaterials/TargetRing_InnerCenter.mat
+  artifactKey: Guid(e06e4a9f9789e7842bef84a26fe0b53e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRMPAssets/MiniGames/MiniGameMaterials/TargetRing_InnerCenter.mat using Guid(e06e4a9f9789e7842bef84a26fe0b53e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e64bad0b8b4bc0cfef0c48eded34d38') in 0.192159 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.5/Hands Interaction Demo/Shaders/Unity_Hand_Noise_HDR.shadergraph
+  artifactKey: Guid(882bbd70d867c23418d3e8aef80294aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.5/Hands Interaction Demo/Shaders/Unity_Hand_Noise_HDR.shadergraph using Guid(882bbd70d867c23418d3e8aef80294aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed32f434aa554f7a0887a2dd08a87ff4') in 0.311186 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbe528491af86ca132d0fa08bcb0a6f6') in 0.054925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/VRMPAssets/Materials/TrailMaterial_Instanced.mat
+  artifactKey: Guid(6f8c7bc29081c6f409f0a44f368d7978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRMPAssets/Materials/TrailMaterial_Instanced.mat using Guid(6f8c7bc29081c6f409f0a44f368d7978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '843884b274f76eeb550379192378e058') in 0.009335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/VRMPAssets/Materials/AnchorMaterials/Anchor Base.mat
+  artifactKey: Guid(19fd09f1fd9347644a27778b73938d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRMPAssets/Materials/AnchorMaterials/Anchor Base.mat using Guid(19fd09f1fd9347644a27778b73938d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c751d1597a7741060bd8a1f65cba0f9') in 0.033376 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/VRMPAssets/Materials/Mirror_HandMenu.mat
+  artifactKey: Guid(fca11540e600c1443a9e588cb6b75ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRMPAssets/Materials/Mirror_HandMenu.mat using Guid(fca11540e600c1443a9e588cb6b75ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba2be96bdd16d5990155fff1a8b3e175') in 0.014953 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/VRMPAssets/Materials/InteractableMaterials/Black_Interactable.mat
+  artifactKey: Guid(7ee01af89d208724a86e37e1e8d34a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRMPAssets/Materials/InteractableMaterials/Black_Interactable.mat using Guid(7ee01af89d208724a86e37e1e8d34a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2ddf671f59b8036766752408dd08187') in 0.015107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.5/Starter Assets/Materials/UI-NoZTest.mat
+  artifactKey: Guid(6f3d696f7c3365846b6dc2402afb3d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.5/Starter Assets/Materials/UI-NoZTest.mat using Guid(6f3d696f7c3365846b6dc2402afb3d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0350fee7adbc5f13ecca589f294d4a5') in 0.028827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/VRMPAssets/Meshes/Anchor/AnchorArrow.fbx
+  artifactKey: Guid(076cbf182a14247409a7a269d753df65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRMPAssets/Meshes/Anchor/AnchorArrow.fbx using Guid(076cbf182a14247409a7a269d753df65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74cf709d9e7c7ebe154a7aae2e1aa241') in 0.016658 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.5/Hands Interaction Demo/HandsDemoSceneAssets/Materials/FrameOutline.mat
+  artifactKey: Guid(54f7c59213ac02b4d9f00104348dbac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.5/Hands Interaction Demo/HandsDemoSceneAssets/Materials/FrameOutline.mat using Guid(54f7c59213ac02b4d9f00104348dbac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28afcf9b8514c60e2e5c3b993e2f2df2') in 0.011113 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/VRMPAssets/Fonts/Inter-Regular SDF NoBackfaceCulling 1.mat
+  artifactKey: Guid(87143959742cb8c4698c417b1b02a1c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRMPAssets/Fonts/Inter-Regular SDF NoBackfaceCulling 1.mat using Guid(87143959742cb8c4698c417b1b02a1c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aab8cb6d45aa66873104322df3db23a2') in 0.013121 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.5/Hands Interaction Demo/HandsDemoSceneAssets/Models/VirtualTabletop.fbx
+  artifactKey: Guid(365907f61b8b39a48aab9aacd4588f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.5/Hands Interaction Demo/HandsDemoSceneAssets/Models/VirtualTabletop.fbx using Guid(365907f61b8b39a48aab9aacd4588f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b95a52c7e0c8d6225b36378a5786c8f') in 0.020954 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph
+  artifactKey: Guid(a3d800b099a06e0478fb790c5e79057a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph using Guid(a3d800b099a06e0478fb790c5e79057a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2777c17db3b8dfe290ff9b5bc8549b81') in 0.376106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.5/Starter Assets/DemoSceneAssets/Materials/Concrete Light Blue.mat
+  artifactKey: Guid(830d28b607e09a2479e2005c2eb5c75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.5/Starter Assets/DemoSceneAssets/Materials/Concrete Light Blue.mat using Guid(830d28b607e09a2479e2005c2eb5c75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eee107dd4878b2db782f0837d5ecf79a') in 0.021757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.5/Hands Interaction Demo/HandsDemoSceneAssets/Materials/Table Surface.mat
+  artifactKey: Guid(6c72d2d2ead00e54db4b71b27ffb03d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.5/Hands Interaction Demo/HandsDemoSceneAssets/Materials/Table Surface.mat using Guid(6c72d2d2ead00e54db4b71b27ffb03d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '886fe5c34c1bb6f05938209d2c601353') in 0.011781 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Samples/XR Hands/1.4.1/HandVisualizer/Materials/Green.mat
+  artifactKey: Guid(727f87098255ad04987a60f5f08390bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Hands/1.4.1/HandVisualizer/Materials/Green.mat using Guid(727f87098255ad04987a60f5f08390bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd05c20574c2fdc1029fe703bbb9084c7') in 0.011402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/VRMPAssets/Materials/Locomotion/BezierLink.mat
+  artifactKey: Guid(092362de890da4ff6bad1904a2989c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRMPAssets/Materials/Locomotion/BezierLink.mat using Guid(092362de890da4ff6bad1904a2989c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c9b690310df7d1790b07e45f946c262') in 0.020945 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/VRMPAssets/Materials/InteractableMaterials/Object_Material_Kinematic.mat
+  artifactKey: Guid(4cf9de724b3de8f40bcb95a910f1af37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRMPAssets/Materials/InteractableMaterials/Object_Material_Kinematic.mat using Guid(4cf9de724b3de8f40bcb95a910f1af37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '318a241ec16e94b9a820c29164d57108') in 0.032495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.5/Spatial Keyboard/Materials/ScaleHandle.mat
+  artifactKey: Guid(14907cbcede41d94f99fc623c76cce72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.5/Spatial Keyboard/Materials/ScaleHandle.mat using Guid(14907cbcede41d94f99fc623c76cce72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85f492bc51b27af56dc314ab30b32929') in 0.049223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.5/Hands Interaction Demo/Shaders/Unity_Hand_Noise.shadergraph
+  artifactKey: Guid(89a6790c28795dd4987bb267c3d05338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.5/Hands Interaction Demo/Shaders/Unity_Hand_Noise.shadergraph using Guid(89a6790c28795dd4987bb267c3d05338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'accbb8e9de37d7981e7f5dee101ef40a') in 0.042543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/VRMPAssets/Materials/EnvironmentMaterials/BrushedMetal.mat
+  artifactKey: Guid(1a19e0bed3a4bff44b42b49c8dbe2770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRMPAssets/Materials/EnvironmentMaterials/BrushedMetal.mat using Guid(1a19e0bed3a4bff44b42b49c8dbe2770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84954b5a8a7d9688aab0201d2bc6b5ce') in 0.174093 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Samples/XR Hands/1.4.1/HandVisualizer/Materials/White.mat
+  artifactKey: Guid(c3474c208278e814cb8d1c29aa806e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Hands/1.4.1/HandVisualizer/Materials/White.mat using Guid(c3474c208278e814cb8d1c29aa806e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a060b4359ad485d7a2af4786fecbd8a4') in 0.005702 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.5/Starter Assets/Materials/Telport Anchor.mat
+  artifactKey: Guid(fd3c5d8fce991e04f9c11109dde95b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.5/Starter Assets/Materials/Telport Anchor.mat using Guid(fd3c5d8fce991e04f9c11109dde95b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fead21d739b394378355a9224cf2e6cb') in 0.012301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/VRMPAssets/Materials/Mirror_BG.mat
+  artifactKey: Guid(6b8a332dfde5ee345950b7f737f99833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRMPAssets/Materials/Mirror_BG.mat using Guid(6b8a332dfde5ee345950b7f737f99833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ec507674e843373aa12fb07dcb715e3') in 0.016211 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/VRMPAssets/Meshes/Spatial Panel Manipulator Model.fbx
+  artifactKey: Guid(00bdefcc748564f5281f478b37e5adc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRMPAssets/Meshes/Spatial Panel Manipulator Model.fbx using Guid(00bdefcc748564f5281f478b37e5adc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a21cb44bb7dbbf95b0a7b5b1217dc93') in 0.096567 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/VRMPAssets/Materials/AvatarMaterials/DitherMaterials/Crown_Dither.mat
+  artifactKey: Guid(baa86a78be6bc824992b86f36fb9dc8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRMPAssets/Materials/AvatarMaterials/DitherMaterials/Crown_Dither.mat using Guid(baa86a78be6bc824992b86f36fb9dc8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff8ea3d6a699c8be3f35f0057d070ea6') in 0.007694 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/VRMPAssets/Materials/AvatarMaterials/StandardMaterials/HMD_Pad.mat
+  artifactKey: Guid(82d43eabbdbe02f469f9862c8d39c967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRMPAssets/Materials/AvatarMaterials/StandardMaterials/HMD_Pad.mat using Guid(82d43eabbdbe02f469f9862c8d39c967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5ac1447aa76d8d121da1768995e63c4') in 0.018040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/VRMPAssets/Materials/AvatarMaterials/StandardMaterials/Eyes.mat
+  artifactKey: Guid(12dd6b1c138d94665975aea5db3cd411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRMPAssets/Materials/AvatarMaterials/StandardMaterials/Eyes.mat using Guid(12dd6b1c138d94665975aea5db3cd411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '318be786bb9e8876e50d158589fe89a1') in 0.017537 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/VRMPAssets/Shaders/FadeAtHeight.shadergraph
+  artifactKey: Guid(174810bd09607ea4eb2dec60fc500a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRMPAssets/Shaders/FadeAtHeight.shadergraph using Guid(174810bd09607ea4eb2dec60fc500a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cc93b3a9cc9041f48bf398034929d13') in 0.362215 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.5/Hands Interaction Demo/Shaders/RimLight.shadergraph
+  artifactKey: Guid(4ff4bf42ffc12e34a9c53b2f216f5442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.5/Hands Interaction Demo/Shaders/RimLight.shadergraph using Guid(4ff4bf42ffc12e34a9c53b2f216f5442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c2d3fc79716c30068580b07fb64b49a') in 0.214070 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.676 seconds
+Refreshing native plugins compatible for Editor in 11.61 ms, found 12 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.RenderPipelineValidation..cctor () [0x00010] in C:\DATA\02_WORK\01_DTT\09_ColabVR\Github\CollabVR\CollabVR\Assets\Samples\XR Interaction Toolkit\3.0.5\Starter Assets\Scripts\MaterialPipelineHandler.cs:16 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  9.799 seconds
+Domain Reload Profiling: 11475ms
+	BeginReloadAssembly (678ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (45ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (396ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (920ms)
+		LoadAssemblies (848ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (198ms)
+			TypeCache.Refresh (153ms)
+				TypeCache.ScanAssembly (109ms)
+			ScanForSourceGeneratedMonoScriptInfo (34ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (9799ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (691ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (119ms)
+			ProcessInitializeOnLoadAttributes (441ms)
+			ProcessInitializeOnLoadMethodAttributes (106ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Script is not up to date after domain reload: guid(fd020f380f8686441818cc6a070f413f) path("Assets/DTT/Scripts/Runtime/Multiplayer/VivoxDTT.cs") state(2)
+Script is not up to date after domain reload: guid(c25f2aef2d2a4bc41a66dce80f92ee5f) path("Assets/DTT/Scripts/Runtime/CommentSectionController.cs") state(2)
+Refreshing native plugins compatible for Editor in 15.14 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.03 ms.
+Unloading 8827 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 734 unused Assets / (3.5 MB). Loaded Objects now: 9428.
+Memory consumption went from 324.2 MB to 320.7 MB.
+Total: 6.661000 ms (FindLiveObjects: 0.352700 ms CreateObjectMapping: 0.147600 ms MarkObjects: 4.100700 ms  DeleteObjects: 2.059300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Readme.cs: b963995d2d26388764121aed720197ab -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ReadmeEditor.cs: ff7ced1e41c1b99ddf5dfefc88f6bd50 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.444 seconds
+Refreshing native plugins compatible for Editor in 10.20 ms, found 12 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.RenderPipelineValidation..cctor () [0x00010] in C:\DATA\02_WORK\01_DTT\09_ColabVR\Github\CollabVR\CollabVR\Assets\Samples\XR Interaction Toolkit\3.0.5\Starter Assets\Scripts\MaterialPipelineHandler.cs:16 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.906 seconds
+Domain Reload Profiling: 1347ms
+	BeginReloadAssembly (117ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (259ms)
+		LoadAssemblies (272ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (41ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (18ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (906ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (508ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (114ms)
+			ProcessInitializeOnLoadAttributes (282ms)
+			ProcessInitializeOnLoadMethodAttributes (91ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 9.19 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Unloading 8821 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 161 unused Assets / (2.7 MB). Loaded Objects now: 9437.
+Memory consumption went from 302.5 MB to 299.8 MB.
+Total: 3.889000 ms (FindLiveObjects: 0.363200 ms CreateObjectMapping: 0.247700 ms MarkObjects: 2.327700 ms  DeleteObjects: 0.949400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Readme.cs: b963995d2d26388764121aed720197ab -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ReadmeEditor.cs: ff7ced1e41c1b99ddf5dfefc88f6bd50 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 

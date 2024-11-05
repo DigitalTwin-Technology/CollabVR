@@ -161,7 +161,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.DefaultCompany.VRMultiplayer
+    Android: com.DigitalTwin.CollabVR
     Standalone: com.DefaultCompany.VR-Multiplayer
     iPhone: com.Unity-Technologies.com.unity.template.urp-blank
   buildNumber:

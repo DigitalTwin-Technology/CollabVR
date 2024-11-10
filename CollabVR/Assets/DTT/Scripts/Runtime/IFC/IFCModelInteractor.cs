@@ -116,6 +116,14 @@ public class IFCModelInteractor : MonoBehaviour
         }
     }
 
+    public void OnToggleChildSelectionChanged( bool value )
+    {
+        if( value )
+            SetModeChildInteractable();
+        else
+            SetModeInteractable();
+    }
+
     public void SetModeChildInteractable()
     {
         SetMode( IFCMode.CHILD_INTERACTABLE );
@@ -140,7 +148,7 @@ public class IFCModelInteractor : MonoBehaviour
                     SetActiveCollider( child, false );
                     SetActiveRigidbody( child, true );
                     child.localPosition = Vector3.zero;
-                    child.rotation = Quaternion.Euler( new Vector3(-90, 180, 0) );
+                    child.rotation = Quaternion.Euler( -90, -90, 0);
                     Material ifcMat = child.GetComponent < Renderer >().material;
                     ifcMat.color = _colorDefault;
                 }

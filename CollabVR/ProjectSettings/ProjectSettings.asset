@@ -12,8 +12,8 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
-  productName: CollabVR
+  companyName: DigitalTwinTechnology
+  productName: SincereVR
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -139,8 +139,10 @@ PlayerSettings:
   vulkanEnableLateAcquireNextImage: 0
   vulkanEnableCommandBufferRecycling: 1
   loadStoreDebugModeEnabled: 0
-  bundleVersion: 0.0.1
-  preloadedAssets: []
+  bundleVersion: 0.0.2
+  preloadedAssets:
+  - {fileID: 475465402638252791, guid: fba6072275013e6448e381f83d131b7f, type: 2}
+  - {fileID: -277355099288397310, guid: e60ad326389e9b14e9f7ae2c33703862, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -161,7 +163,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.DigitalTwin.CollabVR
+    Android: com.DigitalTwin.SincereVR
     Standalone: com.DefaultCompany.VR-Multiplayer
     iPhone: com.Unity-Technologies.com.unity.template.urp-blank
   buildNumber:
